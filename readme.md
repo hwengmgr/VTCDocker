@@ -7,3 +7,5 @@ Please note that this works fine on Docker on Linux. I had it fail with compiler
 It has also not been tested using WSL.
 
 The two script files provided build the Windows and Linux versions.
+
+Docker on Windows Note: successful builds require more than the default 2G of memory. I tried 3.5G and that worked. not sure exactly where the threshold is but definitely up the memory allcoated by Docker. This applies to both Docker under windows and Docker under WSL.
