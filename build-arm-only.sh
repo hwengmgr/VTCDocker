@@ -5,7 +5,7 @@ export WORKSPACE=`pwd`
 rm -rf build
 
 export HOST=arm-linux-gnueabihf
-make -j8 -C depends HOST=$HOST NO_QT=1
+make -j8 -C depends HOST=$HOST
 mkdir -p $WORKSPACE/out/$HOST
 ./autogen.sh
 mkdir build && cd build
